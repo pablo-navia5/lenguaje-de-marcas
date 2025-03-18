@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .contenido {
+            font-family: Arial, sans-serif;
+        }
+
+        .contenido p:last-child::first-line {
+            font-style: italic;
+        }
+
+        .contenido p:nth-child(2)::first-letter {
+            color: red;
+        }
+
+        .contenido.contenido:last-child:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenido">
+        <p>
+            CSS está diseñado principalmente para marcar la separación del contenido del documento y la forma de presentación de este, características tales como las capas o layouts, los colores y las fuentes.
+        </p>
+        <p>
+            Esta separación busca mejorar la accesibilidad del documento, proveer más flexibilidad y control en la especificación de características presentacionales, permitir que varios documentos HTML compartan un mismo estilo usando una sola hoja de estilos separada en un archivo .css, y reducir la complejidad y la repetición de código en la estructura del documento.
+        </p>
+        <p>
+            La separación del formato y el contenido hace posible presentar el mismo documento marcado en diferentes estilos para diferentes métodos de renderizado, como en pantalla, en impresión, en voz (mediante un navegador de voz o un lector de pantalla), y dispositivos táctiles basados en el sistema Braille.
+        </p>
+        <p>
+            También se puede mostrar una página web de manera diferente dependiendo del tamaño de la pantalla o tipo de dispositivo. Los lectores pueden especificar una hoja de estilos diferente, como una hoja de estilos CSS guardado en su computadora, para sobreescribir la hoja de estilos del diseñador.
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    height: 500px;
+}
+
+.item {
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 1px solid #000;
+}

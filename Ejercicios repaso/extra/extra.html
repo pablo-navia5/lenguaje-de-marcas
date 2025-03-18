@@ -1,0 +1,54 @@
+<!-- 
+Nombre: Pablo Navia 
+Curso: 1DAM 
+Fecha: 04/03/2025 
+Ejercicio: Extra 
+-->
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard interactivo</title>
+    <link rel="stylesheet" href="styles.css">
+ </head>
+
+ <body>
+    <div class="dashboard">
+
+        <!-- Barra Lateral -->
+        <aside class="sidebar">
+            <h2>Menu</h2>
+            <div>
+                <ul>
+                    <li><a>Inicio</a></li>
+                    <li><a>Reportes</a></li>
+                    <li><a>Configuracion</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <div class="content">
+            <!-- Cabecera -->
+            <header class="header">
+                <h1>Panel de Control</h1>
+                <div>
+                    <button class="boton cambiar-tema">🌙 Modo Oscuro</button>
+                    <button class="boton">Iniciar sesion</button>
+                </div>
+            </header>
+
+            <!-- Seccion de Tarjetas -->
+            <main class="grid-tarjetas">
+                <div class="card card1">Estadisticas</div>
+                <div class="card card2">Usuarios</div>
+                <div class="card card3">Ventas</div>
+                <div class="card card4">Soporte</div>
+            </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+ </body>
+</html>

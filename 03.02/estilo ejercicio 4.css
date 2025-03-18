@@ -1,0 +1,43 @@
+.texto-rojo {
+    color: red;
+}
+
+.texto-azul {
+   color: blue; 
+}
+
+.texto-naranja {
+    color: orange;
+}
+
+.texto-morado {
+    color: purple;
+}
+
+.texto-oliva {
+    color: olive;
+}
+
+.texto-fucsia {
+    color: fuchsia;
+}
+
+.texto-verde {
+    color: green;
+}
+
+.texto-teal {
+    color: teal;
+}
+
+.fondo-rojo {
+    background-color: red;
+}
+
+.fondo-verde {
+    background-color: green;
+}
+
+.fondo-azul {
+    background-color: blue;
+}

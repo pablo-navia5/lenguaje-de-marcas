@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 14/03/2025
+Ejercicio: Ejercicio 4
+-->
+<empleados>
+    <empleado>
+        <nombre>Ana</nombre>
+        <apellido>Garcia</apellido>
+        <edad>30</edad>
+        <departamento>Ventas</departamento>
+        <cargo>ejecutivo de ventas</cargo>
+    </empleado>
+
+    <empleado>
+        <nombre>Lusi</nombre>
+        <apellido>rodrigez</apellido>
+        <edad>45</edad>
+        <departamento>finanzas</departamento>
+        <cargo>analista financiero</cargo>
+    </empleado>
+
+    <empleado>
+        <nombre>maria</nombre>
+        <apellido>lopez</apellido>
+        <edad>28</edad>
+        <departamento>marketing</departamento>
+        <cargo>especialista en redes sociales</cargo>
+    </empleado>
+</empleados>

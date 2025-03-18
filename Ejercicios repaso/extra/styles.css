@@ -1,0 +1,194 @@
+/* 
+Nombre: Pablo Navia 
+Curso: 1DAM 
+Fecha: 21/02/2025 
+Ejercicio: Extra 
+*/
+
+/*Estilo del body*/
+body {
+    margin: 0;
+}
+
+/*Estructura principal */
+.dashboard {
+    display: flex;
+    height: 700px;
+}
+
+/*Estilo barra lateral */
+.sidebar {
+    width: 20%;
+    background-color: #23313f;
+    color: white;
+    padding: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    animation: animacionMenu 0.6s ease-out both; /*Animacion inicio*/
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sidebar a:hover {
+    color: #22ac90;
+}
+
+/*Contenido principal */
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabecera */
+.header {
+    background-color: #23313f;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: animacionHeader 0.6s ease-out both; /*Animacion de inicio*/
+}
+
+.header .boton {
+    background-color: #17a387;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.header .boton:hover {
+    background-color: #31bda1;
+    transform: scale(1.02);
+}
+
+/*Estilo del grid de tarjetas */
+.grid-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /*Dos colunas de mismo tamaño */
+    grid-template-rows: repeat(2, 1fr); /*Dos filas del mismo tamaño */
+    gap: 20px;
+    padding: 20px;
+}
+
+/*Estilo general de las tarjetas */
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    height: 170px;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+    animation: animacionBotones 0.6s ease-out both; /*Animacion de inicio*/
+    cursor: pointer;
+}
+
+/*Efecto hover de las tarjetas*/
+.card:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+/*Estilo de cada tarjeta (cada tarjeta de un color)*/
+.card1 { background-color: #e74c3c; }
+.card2 { background-color: #3498db; }
+.card3 { background-color: #2ecc71; }
+.card4 { background-color: #f39c12; }
+
+
+/*============ Modo oscuro ============*/
+.modo-oscuro {
+    background-color: #181818;
+    color: #f1f1f1;
+}
+
+/*Estilo de modo oscuro de la barra lateral */
+.modo-oscuro .sidebar {
+    background-color: #222;
+}
+
+/*Estilo de modo oscuro del header */
+.modo-oscuro .header {
+    background-color: #333;
+}
+
+/*Estilo de modo oscuro del contenedor de las tarjetas */
+.modo-oscuro .grid-container {
+    background-color: #1e1e1e;
+}
+
+/*Estilo de modo oscuro de las tarjetas */
+.modo-oscuro .card {
+    background-color: #333;
+    color: #fff;
+    filter: brightness(0.9);
+}
+
+/* Efecto de hover en modo oscuro */
+.modo-oscuro .card:hover {
+    filter: brightness(1.1);
+}
+
+
+/*Con keyframes creo las animaciones del inicio para cada parte de la pagina*/
+@keyframes animacionBotones {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes animacionMenu {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes animacionHeader {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

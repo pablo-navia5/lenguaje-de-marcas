@@ -1,0 +1,11 @@
+#fechainicio li:only-child {
+    color: blue;
+}
+
+#equipo1 p:only-of-type {
+    color: red;
+}
+
+div h1:only-of-type {
+    font-weight: bold;
+}

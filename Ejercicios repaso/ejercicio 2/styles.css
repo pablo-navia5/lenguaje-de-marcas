@@ -1,0 +1,23 @@
+/* 
+Nombre: Pablo Navia 
+Curso: 1DAM 
+Fecha: 21/02/2025 
+Ejercicio: Ejercicio 2 
+*/
+
+h1 {
+    font-size: 30px;
+}
+
+.destacado {
+    color: red;
+}
+
+.caja p {
+    color: green;
+}
+
+div p {
+    background-color: grey;
+}
+

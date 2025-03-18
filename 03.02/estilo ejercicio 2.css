@@ -1,0 +1,56 @@
+/* Todos los elementos de la página */
+* {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #494949;
+}
+
+/* Todos los párrafos de la página */
+p {
+    color: #666;
+}
+
+/* Todos los elementos h1 de la página */
+h1 {
+    font-weight: bold;
+    font-size: 22px;
+    color: #DD1E64;
+}
+
+/* Todos los elementos con clase producto */
+.producto {
+    background-color: pink;
+}
+
+/* Todos los elementos con clase descripción */
+.descripcion {
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Los elementos <span> de clase especial que estén dentro de un <h1> */
+h1 .especial {
+    font-weight: bold;
+    font-size: 20px;
+    color: yellowgreen;
+    background-color: black;
+}
+
+/* Las imágenes que estén en un elemento con id destacado */
+#destacado img {
+    width: 100%;
+}
+
+/* El elemento con id anuncio */
+#anuncio {
+    width: 60%;
+    margin: auto;
+    background-color: #DD1E64;
+}
+
+/* Los párrafos que estén dentro de un elemento con id anuncio */
+#anuncio p {
+    color: white;
+}

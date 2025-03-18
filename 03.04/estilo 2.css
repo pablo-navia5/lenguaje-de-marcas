@@ -1,0 +1,7 @@
+table tr:nth-child(2) {
+    background-color: red;
+}
+
+table tr:nth-child(3n+2) {
+    background-color: red;
+}

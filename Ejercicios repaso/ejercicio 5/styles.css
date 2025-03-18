@@ -1,0 +1,41 @@
+/* 
+Nombre: Pablo Navia 
+Curso: 1DAM 
+Fecha: 21/02/2025 
+Ejercicio: Ejercicio 5 
+*/
+
+/*Estilo para el body para centrar el contenedor*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilo con grid para el contenedor general*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+    grid-template-rows: 100px 200px; /* Primera fila de 100px, segunda de 200px */
+    gap: 10px; /* Espacio entre las celdas */
+    width: 600px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/*Estilo general para los items*/
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+/*Color distinto para cada item*/
+.item1 { background-color: red; }
+.item2 { background-color: blue; }
+.item3 { background-color: green; }
+.item4 { background-color: purple; }
+.item5 { background-color: orange; }
+.item6 { background-color: teal; }

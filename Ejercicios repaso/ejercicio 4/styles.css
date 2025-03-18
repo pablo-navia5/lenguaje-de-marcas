@@ -1,0 +1,39 @@
+/* 
+Nombre: Pablo Navia 
+Curso: 1DAM 
+Fecha: 21/02/2025 
+Ejercicio: Ejercicio 4 
+*/
+
+/*Estilo del contenedor principal que contiene los otros 3 elementos*/
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/*Estilo general de los elementos*/
+.elemento {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/*Cambiar el color de cada uno de los elementos*/
+.elemento1 { 
+    background-color: red; 
+}
+
+.elemento2 { 
+    background-color: green; 
+}
+
+.elemento3 { 
+    background-color: blue; 
+}

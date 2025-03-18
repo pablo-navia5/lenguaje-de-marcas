@@ -1,0 +1,5 @@
+div:empty {
+    width: 1200px;
+    height: 50px;
+    background-color: yellow;
+}
