@@ -1,0 +1,1 @@
+Documento XML para almacenar urls de paginas web junto con su nombre y descripción.

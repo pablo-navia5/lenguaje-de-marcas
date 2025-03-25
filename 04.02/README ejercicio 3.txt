@@ -1,0 +1,1 @@
+Documento XML para almacenar una receta que contiene su nombre, el numero de comensales, los ingredientes (cada uno con su cantidad en forma de atributo) y el proceso con los pasos para hacerlo.

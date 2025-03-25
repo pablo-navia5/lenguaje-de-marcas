@@ -1,0 +1,1 @@
+Documento XML que almacena la información de los alumnos de un modulo formativo, del modulo se almacena su nombre, horas a la semana, si es obligatorio o no, la fecha de inicio y la de final. Y de cada alumno dentro de ese modulo se almacena su nombre, dni, teléfono, email, dirección (compuesta por calle, código postal, ciudad y provincia), faltas de asistencia y su nota.

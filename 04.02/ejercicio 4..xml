@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 25/03/2025
+Ejercicio: Ejercicio 4
+-->
+
+<modulo>
+    <nombre>Lenguajes de Marcas</nombre>
+    <horas_semanales>4</horas_semanales>
+    <caracter>Obligatorio</caracter>
+    <fecha_inicio>2023-09-15</fecha_inicio>
+    <fecha_fin>2024-06-22</fecha_fin>
+    <alumnos>
+        <alumno>
+            <nombre>Ana Fernández Gutiérrez</nombre>
+            <dni>51623487V</dni>
+            <telefono>666544566</telefono>
+            <email>anafernandez@gmail.com</email>
+            <direccion>
+                <calle>C/ Amatista, 14</calle>
+                <codigo_postal>28905</codigo_postal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <faltas_asistencia></faltas_asistencia>
+            <nota></nota>
+        </alumno>
+        
+        <alumno>
+            <nombre>Carlos López Sánchez</nombre>
+            <dni>52369874B</dni>
+            <telefono>666455477</telefono>
+            <email>carloslopez@gmail.com</email>
+            <direccion>
+                <calle>C/ Ópalo, 15</calle>
+                <codigo_postal>28905</codigo_postal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <faltas_asistencia>0</faltas_asistencia>
+            <nota>Apto</nota>
+        </alumno>
+    </alumnos>
+</modulo>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 25/03/2025
+Ejercicio: Ejercicio 2
+-->
+
+<equipos>
+    <equipo>
+        <nombre>FC Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <jugador posicion="delantero">
+                <nombre>Robert Lewandowski</nombre>
+                <nacionalidad>Polaco</nacionalidad>
+            </jugador>
+            <jugador posicion="medio">
+                <nombre>Pedri</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    
+    <equipo>
+        <nombre>Manchester City</nombre>
+        <ciudad>Manchester</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <jugador posicion="delantero">
+                <nombre>Erling Haaland</nombre>
+                <nacionalidad>Noruego</nacionalidad>
+            </jugador>
+            <jugador posicion="defensa">
+                <nombre>Ruben Dias</nombre>
+                <nacionalidad>Portugues</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>

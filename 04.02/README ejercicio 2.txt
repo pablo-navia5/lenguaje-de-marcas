@@ -1,0 +1,1 @@
+Documento XML de equipos de futbol cada equipo almacena su nombre, ciudad y jugadores, a su vez cada jugador, que tiene como atributo la posición, se almacena el nombre y la nacionalidad
