@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:book="http://example.com/book">
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 27/03/2025
+Ejercicio: Ejercicio 1
+-->
+<head>
+    <title>Book Review</title>
+</head>
+<body>
+    <xhtml:div>
+        <xhtml:h1>Book Review</xhtml:h1>
+        <book:bookreview>
+            <book:title>Introducción a XML</book:title>
+            <xhtml:table border="1">
+                <xhtml:tr align="center">
+                    <xhtml:th>Author</xhtml:th>
+                    <xhtml:th>Price</xhtml:th>
+                    <xhtml:th>Pages</xhtml:th>
+                    <xhtml:th>Date</xhtml:th>
+                </xhtml:tr>
+                <xhtml:tr align="left">
+                    <xhtml:td><book:author>Simon St. Laurent</book:author></xhtml:td>
+                    <xhtml:td><book:price>31.98</book:price></xhtml:td>
+                    <xhtml:td><book:pages>352</book:pages></xhtml:td>
+                    <xhtml:td><book:date>1998/01</book:date></xhtml:td>
+                </xhtml:tr>
+            </xhtml:table>
+        </book:bookreview>
+    </xhtml:div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 27/03/2025
+Ejercicio: Ejercicio 1
+-->
+
+<catalogo xmlns:os="http://example.com/os" xmlns:office="http://example.com/office">
+    <!-- Software de Sistemas Operativos -->
+    <os:software>
+        <os:nombre>Windows 11</os:nombre>
+        <os:version>22H2</os:version>
+        <os:desarrollador>Microsoft</os:desarrollador>
+        <os:url>https://www.microsoft.com/windows</os:url>
+    </os:software>
+    <os:software>
+        <os:nombre>Ubuntu</os:nombre>
+        <os:version>22.04 LTS</os:version>
+        <os:desarrollador>Canonical</os:desarrollador>
+        <os:url>https://ubuntu.com/</os:url>
+    </os:software>
+    <os:software>
+        <os:nombre>macOS Sonoma</os:nombre>
+        <os:version>14.0</os:version>
+        <os:desarrollador>Apple Inc.</os:desarrollador>
+        <os:url>https://www.apple.com/macos/</os:url>
+    </os:software>
+    
+    <!-- Software de Aplicaciones de Oficina -->
+    <office:software>
+        <office:nombre>Microsoft Word</office:nombre>
+        <office:version>2021</office:version>
+        <office:desarrollador>Microsoft</office:desarrollador>
+        <office:url>https://www.microsoft.com/word</office:url>
+    </office:software>
+    <office:software>
+        <office:nombre>LibreOffice Writer</office:nombre>
+        <office:version>7.5</office:version>
+        <office:desarrollador>The Document Foundation</office:desarrollador>
+        <office:url>https://www.libreoffice.org/</office:url>
+    </office:software>
+    <office:software>
+        <office:nombre>Google Docs</office:nombre>
+        <office:version></office:version>
+        <office:desarrollador>Google</office:desarrollador>
+        <office:url>https://docs.google.com/</office:url>
+    </office:software>
+</catalogo>
