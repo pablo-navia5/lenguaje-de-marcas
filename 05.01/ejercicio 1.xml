@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 28/03/2025
+Ejercicio: Ejercicio 1
+-->
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (titulo, editorial, autor, paginas)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT autor (nombre, apellidos)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT paginas (#PCDATA)>
+]>
+
+<biblioteca>
+    <libro>
+        <titulo>El nombre del viento</titulo>
+        <editorial>Plaza y Janés</editorial>
+        <autor>
+            <nombre>Patrick</nombre>
+            <apellidos>Rothfuss</apellidos>
+        </autor>
+        <paginas>880</paginas>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <editorial>Debolsillo</editorial>
+        <autor>
+            <nombre>George</nombre>
+            <apellidos>Orwell</apellidos>
+        </autor>
+        <paginas>352</paginas>
+    </libro>
+    <libro>
+        <titulo>Crónica de una muerte anunciada</titulo>
+        <editorial>Diana</editorial>
+        <autor>
+            <nombre>Gabriel</nombre>
+            <apellidos>García Márquez</apellidos>
+        </autor>
+        <paginas>144</paginas>
+    </libro>
+</biblioteca>

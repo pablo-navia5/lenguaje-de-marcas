@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta_de_cocina [
+<!ELEMENT receta_de_cocina (nombre,
+ingrediente*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ingrediente (#PCDATA)>
+]>
+<receta_de_cocina>
+<nombre>Hamburgesa</nombre>
+<ingrediente>Pan</ingrediente>
+<ingrediente>Carne de ternera</ingrediente>
+<ingrediente>Tomate</ingrediente>
+<ingrediente>Lechuga</ingrediente>
+<ingrediente>Queso</ingrediente>
+</receta_de_cocina>

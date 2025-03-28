@@ -1,0 +1,10 @@
+<!ELEMENT liga (jugador+)>
+<!ELEMENT jugador (nombre, apellidos, equipo, edad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT equipo (ciudad, presidente)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT presidente (nombrePresidente, apellidosPresidente)>
+<!ELEMENT nombrePresidente (#PCDATA)>
+<!ELEMENT apellidosPresidente (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>

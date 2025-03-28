@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 28/03/2025
+Ejercicio: Ejercicio 3
+-->
+<!DOCTYPE Agenda [
+<!ELEMENT agenda (nombre, apellido+, telefono, fecha_nacimiento, lugar_nacimiento)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT fecha_nacimiento (anio, mes, dia)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT lugar_nacimiento (pais, ciudad, localidad)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+]>
+<agenda>
+    <nombre>Antonio</nombre>
+    <apellido>Sánchez</apellido>
+    <apellido>Pérez</apellido>
+    <telefono>666555444</telefono>
+    <fecha_nacimiento>
+        <anio>2000</anio>
+        <mes>01</mes>
+        <dia>20</dia>
+    </fecha_nacimiento>
+    <lugar_nacimiento>
+        <pais>España</pais>
+        <ciudad>Madrid</ciudad>
+        <localidad>Getafe</localidad>
+    </lugar_nacimiento>
+</agenda>
+

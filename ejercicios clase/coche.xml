@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coche [
+<!ELEMENT coche (marca,
+fecha_de_matriculacion, caballos)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT fecha_de_matriculacion (#PCDATA)>
+<!ELEMENT caballos (#PCDATA)>
+]>
+<coche>
+<marca>BMW</marca>
+<fecha_de_matriculacion>17-05-2021</fecha_de_matriculacion>
+<caballos>350</caballos>
+</coche>
