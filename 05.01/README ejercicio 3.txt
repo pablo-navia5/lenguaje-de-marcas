@@ -1,0 +1,1 @@
+Se utilizo un DTD interno para validar los datos del documento XML sobre la agenda de contactos

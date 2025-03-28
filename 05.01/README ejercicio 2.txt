@@ -1,0 +1,1 @@
+Este documento XML representa jugadores de una liga de baloncesto que contienen nombre, apellidos, equipo y presidente. Se valida con una DTD externa.
