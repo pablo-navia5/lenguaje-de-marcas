@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuento SYSTEM "cuento.dtd">
+<cuento cod="T01" titulo="El bosque encantado" genero="fantasía">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Ana</nombre>
+            <genero>F</genero>
+            <descripcion>Una niña valiente que explora el bosque.</descripcion>
+            <imagen>ana.png</imagen>
+        </personaje>
+        <personaje id="p2" tipo="antagonista">
+            <nombre>Bruja Oscura</nombre>
+            <genero>F</genero>
+            <descripcion>Una bruja malvada que guarda un secreto.</descripcion>
+            <url>https://brujaoscura.com</url>
+        </personaje>
+    </personajes>
+    <trama>Ana se pierde en un bosque encantado y debe enfrentar sus miedos.</trama>
+    <etiqueta nombre="misterio"/>
+    <etiqueta nombre="aventura"/>
+    <precio moneda="usd">12.99</precio>
+</cuento>

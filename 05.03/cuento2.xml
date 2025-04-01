@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuento SYSTEM "cuento.dtd">
+<cuento cod="I02" titulo="El dragón y el niño" genero="infantil">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Lucas</nombre>
+            <genero>M</genero>
+            <descripcion_fisica>Cabello rubio y ojos azules.</descripcion_fisica>
+        </personaje>
+        <personaje id="p2" tipo="secundario">
+            <nombre>Draco</nombre>
+            <genero>N</genero>
+            <descripcion>Un dragón sabio que ayuda a Lucas.</descripcion>
+            <imagen>draco.jpg</imagen>
+        </personaje>
+    </personajes>
+    <trama>Lucas conoce a un dragón y juntos buscan un tesoro escondido.</trama>
+    <etiqueta nombre="amistad"/>
+    <precio>9.99</precio>
+</cuento>
