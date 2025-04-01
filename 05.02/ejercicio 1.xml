@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 28/03/2025
+Ejercicio: Ejercicio 1
+-->
+<!DOCTYPE factura SYSTEM "factura.dtd">
+
+<factura numero="F00123" fecha="2025-03-28">
+    <datos-emisor>
+        <nombre>Librería Central</nombre>
+        <cif>A12345678</cif>
+        <telefono>912345678</telefono>
+    </datos-emisor>
+
+    <datos-cliente>
+        <nombre>Biblioteca Municipal</nombre>
+        <cif>B87654321</cif>
+        <telefono>987654321</telefono>
+    </datos-cliente>
+
+    <detalle-factura importe="120.50">
+        <linea codigo-articulo="L001" tipo="Libro">
+            <descripcion>El Principito</descripcion>
+            <cantidad>2</cantidad>
+            <pvp>15.00</pvp>
+        </linea>
+
+        <linea codigo-articulo="D001" tipo="DVD">
+            <descripcion>Película Animada</descripcion>
+            <cantidad>1</cantidad>
+            <pvp>20.00</pvp>
+            <oferta/>
+        </linea>
+
+        <linea codigo-articulo="V001" tipo="Varios">
+            <descripcion>Marcadores de lectura</descripcion>
+            <cantidad>5</cantidad>
+            <pvp>2.50</pvp>
+        </linea>
+    </detalle-factura>
+</factura>

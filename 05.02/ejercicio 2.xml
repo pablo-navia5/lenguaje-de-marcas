@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 28/03/2025
+Ejercicio: Ejercicio 2
+-->
+<!DOCTYPE EquiposNBA SYSTEM "equipos.dtd">
+<EquiposNBA>
+    <nombre>Los Angeles Lakers</nombre>
+    <nombre>Chicago Bulls</nombre>
+    <nombre>Golden State Warriors</nombre>
+    
+    <equipo conferencia="Oeste">
+        <nombre>Los Angeles Lakers</nombre>
+        <titulos>17</titulos>
+        <posicion>3</posicion>
+        <quinteto>LeBron James, Anthony Davis, D'Angelo Russell, Austin Reaves, Rui Hachimura</quinteto>
+    </equipo>
+    
+    <equipo conferencia="Este">
+        <nombre>Chicago Bulls</nombre>
+        <titulos>6</titulos>
+        <posicion>7</posicion>
+        <quinteto>Zach LaVine, DeMar DeRozan, Nikola Vucevic, Coby White, Patrick Williams</quinteto>
+    </equipo>
+    
+    <equipo conferencia="Oeste">
+        <nombre>Golden State Warriors</nombre>
+        <titulos>7</titulos>
+        <posicion>5</posicion>
+        <quinteto>Stephen Curry, Klay Thompson, Draymond Green, Andrew Wiggins, Kevon Looney</quinteto>
+    </equipo>
+</EquiposNBA>

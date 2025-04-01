@@ -1,0 +1,1 @@
+Documento XML que representa una factura electronica con datos del emisor, cliente y productos vendidos. Incluye atributos como número, fecha e importe. Se valida con una DTD externa.

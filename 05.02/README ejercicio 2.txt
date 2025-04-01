@@ -1,0 +1,1 @@
+Documento XML que contiene información sobre equipos de la NBA, incluyendo el nombre del equipo, conferencia, títulos ganados, posición en la clasificación y quinteto titular. Se valida con un DTD externo.
