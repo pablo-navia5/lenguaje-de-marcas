@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 03/04/2025
+Ejercicio: Cuento 2
+-->
 <!DOCTYPE cuento SYSTEM "cuento.dtd">
 <cuento cod="I02" titulo="El dragón y el niño" genero="infantil">
     <personajes>

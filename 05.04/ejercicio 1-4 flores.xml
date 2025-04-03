@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 03/04/2025
+Ejercicio: Ejercicio 1-4 flores
+-->
+<!DOCTYPE flores [
+    <!ELEMENT flores (flor+)>
+    <!ELEMENT flor (#PCDATA)>
+]>
+<flores>
+    <flor>Rosa</flor>
+</flores>

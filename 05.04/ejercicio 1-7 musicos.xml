@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 03/04/2025
+Ejercicio: Ejercicio 1-6 escritores
+-->
+<!DOCTYPE musicos [
+    <!ELEMENT musicos (musico*)>
+    <!ELEMENT musico ((nombre | apodo), fechaNacimiento)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apodo (#PCDATA)>
+    <!ELEMENT fechaNacimiento (#PCDATA)>
+]>
+<musicos>
+    <musico>
+        <nombre>Antonio Vivaldi</nombre>
+        <apodo>El cura pelirrojillo</apodo>
+        <fechaNacimiento>4 de marzo de 1678</fechaNacimiento>
+    </musico>
+    <musico>
+        <nombre>Johann Sebastian Bach</nombre>
+        <apodo>El viejo peluca</apodo>
+        <fechaNacimiento>21 de marzo de 1685</fechaNacimiento>
+    </musico>
+</musicos>

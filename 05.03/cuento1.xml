@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 03/04/2025
+Ejercicio: Cuento 1
+-->
 <!DOCTYPE cuento SYSTEM "cuento.dtd">
 <cuento cod="T01" titulo="El bosque encantado" genero="fantasía">
     <personajes>
