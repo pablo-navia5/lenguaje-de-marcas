@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 06/04/2025
+Ejercicio: Ejercicio 2-1 marcadores
+-->
+<!DOCTYPE favoritos [
+        <!ELEMENT marcadores (marcador)> 
+        <!ELEMENT marcador (nombre, uri)> 
+        <!ELEMENT nombre (#PCDATA)> 
+        <!ELEMENT uri (#PCDATA)> 
+        ]>
+<marcadores>
+    <marcador>
+        <nombre>W3C</nombre>
+        <uri>http://www.w3.org/</uri>
+    </marcador>
+    <marcador>
+        <nombre>Web Hypertext Application Technology Working Group (WHATWG)</nombre>
+        <uri>http://www.whatwg.org/</uri>
+    </marcador>
+</marcadores>
