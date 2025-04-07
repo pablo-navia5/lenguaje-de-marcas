@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 06/04/2025
+Ejercicio: Ejercicio 4-2 inventos
+-->
+<!DOCTYPE inventores [
+    <!ELEMENT inventores (inventor+)>
+    <!ELEMENT inventor EMPTY>
+    <!ATTLIST inventor invento CDATA #REQUIRED> 
+    <!ATTLIST inventor nombre CDATA #REQUIRED>
+]>
+<inventores>
+    <inventor nombre="Robert Adler" invento="Mando a distancia" /> 
+    <inventor nombre="Laszlo Josef Biro" invento="Bolígrafo" />
+    <inventor nombre="Josephine Garis Cochran" invento="Lavaplatos" /> 
+    <inventor nombre="Anónimo" invento="Fuego" />
+</inventores>

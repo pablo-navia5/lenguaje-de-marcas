@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 06/04/2025
+Ejercicio: Ejercicio 4-1 libro
+-->
+<!DOCTYPE libro [
+    <!ELEMENT libro EMPTY>
+    <!ATTLIST libro autor CDATA #REQUIRED>
+]>
+<libro autor="Mario Vargas Llosa" />
