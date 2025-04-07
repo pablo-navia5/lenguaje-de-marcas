@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 06/04/2025
+Ejercicio: Ejercicio 3-5 jugadores de futbol
+-->
+<!DOCTYPE futbol [
+    <!ELEMENT futbol (jugador*)>
+    <!ELEMENT jugador EMPTY>
+    <!ATTLIST jugador nombre NMTOKENS #REQUIRED> 
+    <!ATTLIST jugador codigo ID #REQUIRED>
+]>
+<futbol>
+    <jugador nombre="Alfredo Di Stéfano" codigo="1" id="1"/>
+    <jugador nombre="Edson Arantes do Nascimento, Pelé" codigo="2" ID="2" /> 
+    <jugador nombre="Diego Armando Maradona" codigo="3" ID="3"/>
+    <jugador nombre="Johan Cruyff" codigo="4" ID="4"/>
+</futbol>
+
+
+DTD - Ejercicio 3-6 - Jugadores y equipos de fútbol

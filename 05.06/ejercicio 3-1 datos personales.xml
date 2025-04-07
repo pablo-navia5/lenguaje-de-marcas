@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 06/04/2025
+Ejercicio: Ejercicio 3-1 datos personales
+-->
+<!DOCTYPE persona [
+    <!ELEMENT persona EMPTY>
+    <!ATTLIST persona nombre CDATA #IMPLIED>
+]>
+<persona nombre="Pedro" />
+
+
+DTD - Ejercicio 3-2 - Película

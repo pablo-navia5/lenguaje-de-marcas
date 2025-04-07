@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--
+Nombre: Pablo Navia
+Curso: 1DAM
+Fecha: 06/04/2025
+Ejercicio: Ejercicio 3-3 cuadros
+-->
+<!DOCTYPE cuadros [
+    <!ELEMENT cuadros (cuadro*)>
+    <!ELEMENT cuadro EMPTY>
+    <!ATTLIST cuadro titulo ID #REQUIRED> 
+    <!ATTLIST cuadro autor CDATA #REQUIRED>
+]>
+<cuadros>
+    <cuadro titulo="Adán y Eva" ID="1" autor="Alberto Durero" />
+    <cuadro autor="Lucas Cranach, el viejo" ID="2" titulo="Adán y Eva" /> 
+</cuadros>
