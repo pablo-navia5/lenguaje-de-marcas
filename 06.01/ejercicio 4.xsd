@@ -1,0 +1,17 @@
+<!-- 
+Nombre: Pablo Navia Rojo
+Curso: 1 DAM 
+Fecha: 06/05/2025
+Ejercicio: ejercicio 4
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="tipoDeVehiculo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="barco"/>
+      <xs:enumeration value="bicicleta"/>
+      <xs:enumeration value="coche"/>
+      <xs:enumeration value="tren"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="vehiculo" type="tipoDeVehiculo"/>
+</xs:schema>
