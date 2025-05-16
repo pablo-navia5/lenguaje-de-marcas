@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: Pablo Navia Rojo
+Curso: 1 DAM 
+Fecha: 06/05/2025
+Ejercicio: ejercicio 2
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- Tipo reutilizable para número y código -->
+  <xs:simpleType name="tipoDosDigitos">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="0[0-9]|1[0-9]"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- Tipo solo para el atributo letra-->
+  <xs:simpleType name="tipoLetra">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="X"/>
+      <xs:enumeration value="Y"/>
+      <xs:enumeration value="Z"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- Elemento raiz -->
+  <xs:element name="fichas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ficha" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="tipoDosDigitos"/>
+              <xs:element name="nombre" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="numero" type="tipoDosDigitos" use="required"/>
+            <xs:attribute name="letra" type="tipoLetra" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

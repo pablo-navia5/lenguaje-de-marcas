@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="icon" type="imagen/x.icon" href="../logo.png">
+        <title>InmoLink | Inicia Sesion</title>
+        <link rel="stylesheet" href="InicioSesionStyles.css">
+        <script src="funciones.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+    </head>
+
+    <body>
+
+        <!--Header (distinto al resto)-->
+        <div style="float: right; margin-right: 80px;" class="w3-xxxlarge">
+            <a href="../index.html"><i class="fa fa-close"></i></a>
+        </div>
+
+        <main>
+
+        <div class="container" style="margin-top: 20px;">
+ 
+            <!--Formulario de inicio de sesion-->
+            <div class="Logo2">
+                <img src="InmoLink-Logo2.png" alt="InmoLink" height="70px">
+            </div>
+            <br>
+            <h2>Iniciar sesión</h2>
+            <form>
+                <div class="input-field">
+                    <input type="text" required>
+                    <label>Escribe tu e-mail</label>
+                    <span></span>
+                </div>
+            </form>
+            <br><br>
+            <form>
+                <div class="input-field">
+                    <input type="password" name="" required id="contra">
+                    <label>Escribe tu contraseña</label>
+                    <span></span> 
+                </div>
+            <button onclick="cambiar(); ojo()" class="mostrar-contra"><img src="ojo.png" id="tipoojo"></button>
+            </form>
+            <br><br>
+            <label class="contenedor">Recordar mis datos
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <a href="../index.html"><button class="button1" type="submit">Iniciar sesion</button></a>
+            <br><br>
+
+            <div style="text-align: center;">
+             <p>¿No tienes cuenta? <span><a href="../UsuarioNuevo/NuevoUsuario.html" class="enlaces">Crea tu cuenta ahora</span></a></p></a>
+            </div>
+
+        </div>
+
+        </main>    
+    </body>
+</html>

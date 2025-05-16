@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InmoLink | Vender</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="icon" type="imagen/x.icon" href="../logo.png">
+    <title>InmoLink | Comprar</title>
+    <link rel="stylesheet" href="premontados.css">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!--Header (igual en todas las paginas)-->
+    <header>
+            <a href="../index.html" target="_self">
+            <img src="../logo.png" alt="logo laguna componentes" title="Home" height="90px" width="110px">
+            </a>
+            <ul>
+                <li><a href="../Componentes/componentes.html">Premontados</a></li>
+                <li><a href="premontados.html">Componentes</a></li>
+                <li><a href="../Asesoramiento/Asesoramiento.html">Asesoramiento</a></li>
+            </ul>
+            <div style="padding-right: 40px; padding-bottom: 28px;">
+            <a href="../InmoLink_InicioSesion/InicioSesion.html"><button class="acceso zoom"><img src="../IconoAcceder.png" style="height: 15px; width: 15px; border: 0px;">&nbsp;&nbsp; Acceder</button></a>
+            </div>
+        </header>
+
+    <!--Ajuntar fotos del anuncio-->
+    <p class="fotos-anun">Fotos de tu anuncio</p>
+    <div class="anuncios">
+        <div class="anuncios2">
+            <img src="iconimage.png" alt="iconimage" class="icon-anun">
+        </div>
+        <div class="anuncios2">
+            <img src="iconimage.png" alt="iconimage" class="icon-anun">
+        </div>
+        <div class="anuncio-mas">
+            <img src="iconsuma.png" alt="suma" class="icon-mas">
+        </div>
+    </div>
+
+    <!--Tipo de anuncio-->
+    <p class="tipo-anun">Tipo de anuncio</p>
+    <input type="radio" id="toggle" name="imagen" class="toggle" checked>
+    <label for="toggle">
+        <img src="vivienda.png" alt="vivienda" class="imagen">
+    </label>
+    <input type="radio" id="toggle2" name="imagen" class="toggle">
+    <label for="toggle2">
+        <img src="garage.png" alt="garage" class="imagen">
+    </label>
+    <input type="radio" id="toggle3" name="imagen" class="toggle">
+    <label for="toggle3">
+        <img src="local.png" alt="local" class="imagen">
+    </label>
+    <input type="radio" id="toggle4" name="imagen" class="toggle">
+    <label for="toggle4">
+        <img src="trastero.png" alt="trastero" class="imagen">
+    </label>
+    <input type="radio" id="toggle5" name="imagen" class="toggle">
+    <label for="toggle5">
+        <img src="oficina.png" alt="oficina" class="imagen">
+    </label>
+    <input type="radio" id="toggle6" name="imagen" class="toggle">
+    <label for="toggle6">
+        <img src="terreno.png" alt="terreno" class="imagen">
+    </label>
+
+    <!--Caracteristicas de la vivienda-->
+    <div class="barras-ventas" id="opciones1">
+        <p class="caracte">Características</p>
+        <div class="simbolo-barra">
+            <p>Precio de venta</p>
+            <input type="number" placeholder="..." class="simbolos-input" step="0.01">
+            <div class="simbolos">
+                <span>| €</span>
+            </div>
+        </div>
+        <div class="simbolo-barra">
+            <p>Tamaño</p>
+            <input type="number" placeholder="..." class="simbolos-input" step="0.01">
+            <div class="simbolos2">
+                <span>| m²</span>
+            </div>
+        </div>
+        <div class="barra">
+            <p>Planta</p>
+            <input type="number" placeholder="...">
+        </div>
+        <div class="barra2">
+            <div class="izquierda">
+                <p>Hab.</p>
+                <input type="number" placeholder="...">
+            </div>
+            <div class="derecha">
+                <p>Baños</p>
+                <input type="number" placeholder="...">
+            </div>
+        </div>
+        <div class="barra">
+            <p>Antiguedad</p>
+            <input type="number" placeholder="...">
+        </div>
+    </div>
+    <div class="barras-ventas" id="opciones2">
+        <p class="caracte">Características</p>
+        <div class="simbolo-barra">
+            <p>Precio de venta</p>
+            <input type="number" placeholder="..." class="simbolos-input" step="0.01">
+            <div class="simbolos">
+                <span>| €</span>
+            </div>
+        </div>
+        <div class="simbolo-barra">
+            <p>Tamaño</p>
+            <input type="number" placeholder="..." class="simbolos-input" step="0.01">
+            <div class="simbolos2">
+                <span>| m²</span>
+            </div>
+        </div>
+        <div class="barra">
+            <p>Planta</p>
+            <input type="number" placeholder="...">
+        </div>
+        <div class="barra">
+            <p>Habitación</p>
+            <input type="number" placeholder="...">
+        </div>
+    </div>
+    <div class="barras-ventas" id="opciones3">
+        <p class="caracte">Características</p>
+        <div class="simbolo-barra">
+            <p>Precio de venta</p>
+            <input type="number" placeholder="..." class="simbolos-input" step="0.01">
+            <div class="simbolos">
+                <span>| €</span>
+            </div>
+        </div>
+        <div class="simbolo-barra">
+            <p>Tamaño</p>
+            <input type="number" placeholder="..." class="simbolos-input" step="0.01">
+            <div class="simbolos2">
+                <span>| m²</span>
+            </div>
+        </div>
+        <div class="barra">
+            <p>Planta</p>
+            <input type="number" placeholder="...">
+        </div>
+        <div class="barra2">
+            <div class="izquierda">
+                <p>Hab.</p>
+                <input type="number" placeholder="...">
+            </div>
+            <div class="derecha">
+                <p>Baños</p>
+                <input type="number" placeholder="...">
+            </div>
+        </div>
+        <div class="barra">
+            <p>Antiguedad</p>
+            <input type="number" placeholder="...">
+        </div>
+    </div>
+    <div class="barras-ventas" id="opciones4">
+        <p class="caracte">Características</p>
+        <div class="barra">
+            <p>Precio de venta</p>
+            <input type="number" placeholder="...">
+        </div>
+        <div class="barra">
+            <p>Tamaño</p>
+            <input type="number" placeholder="...">
+        </div>
+        <div class="barra">
+            <p>Planta</p>
+            <input type="number" placeholder="...">
+        </div>
+        <div class="barra">
+            <p>Habitación</p>
+            <input type="number" placeholder="...">
+        </div>
+    </div>
+    <div class="barras-ventas" id="opciones5">
+        <p class="caracte">Características</p>
+        <div class="simbolo-barra">
+            <p>Precio de venta</p>
+            <input type="number" placeholder="..." class="simbolos-input" step="0.01">
+            <div class="simbolos">
+                <span>| €</span>
+            </div>
+        </div>
+        <div class="simbolo-barra">
+            <p>Tamaño</p>
+            <input type="number" placeholder="..." class="simbolos-input" step="0.01">
+            <div class="simbolos2">
+                <span>| m²</span>
+            </div>
+        </div>
+        <div class="barra">
+            <p>Planta</p>
+            <input type="number" placeholder="...">
+        </div>
+        <div class="barra2">
+            <div class="izquierda">
+                <p>Hab.</p>
+                <input type="number" placeholder="...">
+            </div>
+            <div class="derecha">
+                <p>Baños</p>
+                <input type="number" placeholder="...">
+            </div>
+        </div>
+        <div class="barra">
+            <p>Antiguedad</p>
+            <input type="number" placeholder="...">
+        </div>
+    </div>
+    <div class="barras-ventas" id="opciones6">
+        <p class="caracte">Características</p>
+        <div class="simbolo-barra">
+            <p>Precio de venta</p>
+            <input type="number" placeholder="..." class="simbolos-input" step="0.01">
+            <div class="simbolos">
+                <span>| €</span>
+            </div>
+        </div>
+        <div class="simbolo-barra">
+            <p>Tamaño</p>
+            <input type="number" placeholder="..." class="simbolos-input" step="0.01">
+            <div class="simbolos2">
+                <span>| m²</span>
+            </div>
+        </div>
+
+        <footer>
+            <h2>InmoLink</h2>
+            <p class="copyright"><b>InmoLink </b>Copyright © 2024</p>
+
+            <div class="contact">
+                <a href="RegistroVendedores/RegVend.html">Contáctanos</a>
+                <p>
+                    <img src="Facebook+Icon+Black.png" alt="Facebook InmoLink" height="20px">&nbsp;&nbsp;&nbsp;
+                    &nbsp;<img src="YouTube-icon-black-png.png" alt="YouTube InmoLink" height="20px">&nbsp;&nbsp;&nbsp;
+                    &nbsp;<img src="logo-black.png.twimg.1920.png" alt="X InmoLink" height="20px">&nbsp;&nbsp;&nbsp;
+                    &nbsp;<img src="new-Instagram-logo-black-glyph.png" alt="Instagram InmoLink" height="20px">
+                </p>
+            <br><hr><br><br>
+            </div>
+        </footer>
+</body>
+</html>
